@@ -4,12 +4,6 @@ spring:
   data:
     mongodb:
       uri: ${SPRING_DATA_URI}
-  cloud:
-    config:
-      server:
-        git:
-          uri: ${SPRING_CLOUD_CONFIG_SERVER_GIT_URI}
-          username: ${SPRING_CLOUD_CONFIG_SERVER_GIT_USERNAME}
-          password: ${SPRING_CLOUD_CONFIG_SERVER_GIT_PASSWORD}
+
 server:
   port: ${SERVER_PORT}
